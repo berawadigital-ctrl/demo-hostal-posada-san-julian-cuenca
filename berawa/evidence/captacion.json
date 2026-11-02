@@ -1,0 +1,30 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hostal-posada-san-julian-cuenca",
+ "maps": {
+  "fecha": "2026-10-30T08:50:15+01:00",
+  "estado": "LEIDA",
+  "ficha": "Pensión y restaurante San Julián",
+  "nota": 4.2,
+  "coincide": {
+   "tel": true,
+   "web": true
+  },
+  "url": "https://www.google.com/maps/search/Posada+San+Juli%C3%A1n+Cuenca",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-30T08:50:15+01:00",
+  "veredicto": "MALA",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "EVA ÁLVAREZ COLLADO (autónoma)",
+  "cif": "04533839X",
+  "fuente": "https://www.posadasanjulian.es/aviso-legal",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "Aviso legal posadasanjulian.es: titular Eva Álvarez Collado, NIF 04533839X, persona física (autónoma) con correo en su dominio; un solo hostal"
+ }
+}
