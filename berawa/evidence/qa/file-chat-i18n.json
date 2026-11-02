@@ -1,0 +1,422 @@
+{
+ "url": "file:///tmp/clon-hostal-posada-san-julian-cuenca/repo/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene 16 habitaciones: 2 individuales, 10 dobles y 4 familiares para 3 o 4 personas."
+    },
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen baño privado, calefacción central y televisión. Algunas más pequeñas y económicas solo tienen lavabo, con un baño co"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Por el momento no ofrecen desayuno, pero hay varias cafeterías cercanas que lo sirven."
+    },
+    {
+     "q": "¿Tenéis restaurante?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí: su restaurante ofrece cocina tradicional con productos de la tierra, información de alérgenos y vinos de La Mancha, Rioja, Ribera del Jú"
+    },
+    {
+     "q": "¿Qué incluye el menú del día?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "El menú del día incluye primer plato, segundo plato y postre, pan (2 piezas por persona) y bebida (agua, vino o gaseosa); no incluye cerveza"
+    },
+    {
+     "q": "¿Hacéis celebraciones?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí: tienen 2 comedores amplios con capacidad para 25 y 100 comensales, para comuniones, bautizos, bodas de oro y de plata, cumpleaños, reuni"
+    },
+    {
+     "q": "¿Dónde estáis?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "En la Calle Torres, 1, 16001 Cuenca, en pleno centro, a un paso de las Casas Colgadas y del casco antiguo. Es una casa del siglo XVI declara"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "No tienen reserva online: escribe a info@posadasanjulian.es o llama al 969 211 704 y te confirman disponibilidad. Este asistente no puede co"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "No tienen reserva online: escribe a info@posadasanjulian.es o llama al 969 211 704 y te confirman disponibilidad. Este asistente no puede co"
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sí, wifi gratuito en las habitaciones y en el restaurante."
+    },
+    {
+     "q": "¿Dónde aparco?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "No mencionan parking propio; hay aparcamientos muy próximos, el más cercano en el paseo Huécar s/n, a menos de 2 minutos a pie."
+    },
+    {
+     "q": "¿Cuál es vuestro teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono: 969 211 704. Correo: info@posadasanjulian.es. Consultar por WhatsApp →"
+    },
+    {
+     "q": "¿Qué puedo ver en Cuenca?",
+     "esperado": "K12",
+     "ok": false,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 969 211 704 · info@posadasanjulian.es."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 969 211 704 · info@posadasanjulian.es."
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 969 211 704 · info@posadasanjulian.es."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Hay desayuno?",
+    "¿Dónde aparco?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has 16 rooms: 2 singles, 10 doubles and 4 family rooms for 3 or 4 people."
+    },
+    {
+     "q": "What do the rooms include?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Rooms have a private bathroom, central heating and television. Some smaller, cheaper rooms only have a washbasin, with a full bathroom in th"
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "They do not serve breakfast for now, but several nearby cafés do."
+    },
+    {
+     "q": "Do you have a restaurant?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes: its restaurant serves traditional cuisine with local produce, allergen information and wines from La Mancha, Rioja, Ribera del Júcar an"
+    },
+    {
+     "q": "What does the set menu include?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "The daily set menu includes a starter, main course and dessert, bread (2 pieces per person) and a drink (water, wine or soda); beer and soft"
+    },
+    {
+     "q": "Do you host celebrations?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Yes: they have 2 large dining rooms for 25 and 100 guests, for communions, christenings, golden and silver anniversaries, birthdays, gatheri"
+    },
+    {
+     "q": "Where are you?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "At Calle Torres, 1, 16001 Cuenca, right in the centre, a short walk from the Hanging Houses and the old town. It is a 16th-century house dec"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "There is no online booking: email info@posadasanjulian.es or call 969 211 704 and they will confirm availability. This assistant cannot conf"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "There is no online booking: email info@posadasanjulian.es or call 969 211 704 and they will confirm availability. This assistant cannot conf"
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Yes, free wifi in the rooms and in the restaurant."
+    },
+    {
+     "q": "Where can I park?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "They do not mention their own parking; there are car parks very close by, the nearest on paseo Huécar s/n, under 2 minutes on foot."
+    },
+    {
+     "q": "What is your phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone: 969 211 704. Email: info@posadasanjulian.es. Ask on WhatsApp →"
+    },
+    {
+     "q": "What can I see in Cuenca?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "They recommend the Cathedral of Santa María y San Julián, the Plaza Mayor, the Hanging Houses (home to the Museum of Spanish Abstract Art), "
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 969 211 704 · info@posadasanjulian.es."
+    },
+    {
+     "q": "Do you allow pets?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 969 211 704 · info@posadasanjulian.es."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Is there breakfast?",
+    "Where can I park?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Elle compte 16 chambres : 2 individuelles, 10 doubles et 4 familiales pour 3 ou 4 personnes."
+    },
+    {
+     "q": "Que comprennent les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les chambres ont salle de bains privée, chauffage central et télévision. Quelques chambres plus petites et économiques n’ont qu’un lavabo, a"
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Pour l’instant, il n’y a pas de petit-déjeuner, mais plusieurs cafés proches en servent."
+    },
+    {
+     "q": "Avez-vous un restaurant ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui : son restaurant propose une cuisine traditionnelle avec des produits locaux, des informations sur les allergènes et des vins de La Manc"
+    },
+    {
+     "q": "Que comprend le menu du jour ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Le menu du jour comprend entrée, plat et dessert, pain (2 pièces par personne) et boisson (eau, vin ou limonade) ; bière et sodas non compri"
+    },
+    {
+     "q": "Organisez-vous des célébrations ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Oui : deux grandes salles pour 25 et 100 convives, pour communions, baptêmes, noces d’or et d’argent, anniversaires, réunions d’amis ou repa"
+    },
+    {
+     "q": "Où êtes-vous ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Calle Torres, 1, 16001 Cuenca, en plein centre, à deux pas des Maisons suspendues et de la vieille ville. C’est une maison du XVIe siècle dé"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Pas de réservation en ligne : écrivez à info@posadasanjulian.es ou appelez le 969 211 704 pour confirmer la disponibilité. Cet assistant ne "
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Pas de réservation en ligne : écrivez à info@posadasanjulian.es ou appelez le 969 211 704 pour confirmer la disponibilité. Cet assistant ne "
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Oui, wifi gratuit dans les chambres et au restaurant."
+    },
+    {
+     "q": "Où se garer ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pas de parking propre mentionné ; il y a des parkings tout proches, le plus près au paseo Huécar s/n, à moins de 2 minutes à pied."
+    },
+    {
+     "q": "Quel est votre numéro de téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone : 969 211 704. E-mail : info@posadasanjulian.es. Écrire sur WhatsApp →"
+    },
+    {
+     "q": "Que voir à Cuenca ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Ils recommandent la cathédrale Santa María y San Julián, la Plaza Mayor, les Maisons suspendues (avec le musée d’Art abstrait espagnol), les"
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 969 211 704 · info@posadasanjulian.es."
+    },
+    {
+     "q": "Acceptez-vous les animaux ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 969 211 704 · info@posadasanjulian.es."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Y a-t-il un petit-déjeuner ?",
+    "Où se garer ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt 16 Zimmer: 2 Einzelzimmer, 10 Doppelzimmer und 4 Familienzimmer für 3 oder 4 Personen."
+    },
+    {
+     "q": "Was bieten die Zimmer?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Die Zimmer haben eigenes Bad, Zentralheizung und Fernseher. Einige kleinere, günstigere Zimmer haben nur ein Waschbecken, mit einem vollstän"
+    },
+    {
+     "q": "Gibt es Frühstück?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Derzeit gibt es kein Frühstück, aber mehrere Cafés in der Nähe bieten es an."
+    },
+    {
+     "q": "Haben Sie ein Restaurant?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ja: Das Restaurant bietet traditionelle Küche mit regionalen Produkten, Allergeninformationen und Weine aus La Mancha, Rioja, Ribera del Júc"
+    },
+    {
+     "q": "Was beinhaltet das Tagesmenü?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Das Tagesmenü umfasst Vorspeise, Hauptgang und Dessert, Brot (2 Stück pro Person) und ein Getränk (Wasser, Wein oder Limonade); Bier und Sof"
+    },
+    {
+     "q": "Richten Sie Feiern aus?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Ja: Es gibt 2 große Speisesäle für 25 und 100 Gäste, für Kommunionen, Taufen, goldene und silberne Hochzeiten, Geburtstage, Treffen mit Freu"
+    },
+    {
+     "q": "Wo liegt die Pension?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Calle Torres, 1, 16001 Cuenca, mitten im Zentrum, wenige Schritte von den Hängenden Häusern und der Altstadt. Ein Haus aus dem 16. Jahrhunde"
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Keine Online-Buchung: Schreiben Sie an info@posadasanjulian.es oder rufen Sie 969 211 704 an, dort wird die Verfügbarkeit bestätigt. Dieser "
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Keine Online-Buchung: Schreiben Sie an info@posadasanjulian.es oder rufen Sie 969 211 704 an, dort wird die Verfügbarkeit bestätigt. Dieser "
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Ja, kostenloses WLAN in den Zimmern und im Restaurant."
+    },
+    {
+     "q": "Wo kann ich parken?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Ein eigener Parkplatz wird nicht genannt; es gibt Parkplätze ganz in der Nähe, der nächste am Paseo Huécar s/n, unter 2 Gehminuten."
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telefon: 969 211 704. E-Mail: info@posadasanjulian.es. Per WhatsApp schreiben →"
+    },
+    {
+     "q": "Was kann ich in Cuenca sehen?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Empfohlen werden die Kathedrale Santa María y San Julián, die Plaza Mayor, die Hängenden Häuser (mit dem Museum für spanische abstrakte Kuns"
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 969 211 704 · info@posadasanjulian.es."
+    },
+    {
+     "q": "Sind Haustiere erlaubt?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 969 211 704 · info@posadasanjulian.es."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Gibt es Frühstück?",
+    "Wo kann ich parken?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [
+  "es: chat \"¿Qué puedo ver en Cuenca?\" esperado K12 -> No dispongo de esa información. Escríbenos o llámanos: +34 969 211 704 · info@po"
+ ],
+ "ok": false
+}
