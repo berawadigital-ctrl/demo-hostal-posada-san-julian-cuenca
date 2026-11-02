@@ -79,8 +79,8 @@
     {
      "q": "¿Qué puedo ver en Cuenca?",
      "esperado": "K12",
-     "ok": false,
-     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 969 211 704 · info@posadasanjulian.es."
+     "ok": true,
+     "respuesta": "Recomiendan la Catedral de Santa María y San Julián, la Plaza Mayor, las Casas Colgadas (con el Museo de Arte Abstracto Español), las hoces "
     },
     {
      "q": "¿Cuánto cuesta la noche?",
@@ -415,8 +415,6 @@
    ]
   }
  },
- "fail": [
-  "es: chat \"¿Qué puedo ver en Cuenca?\" esperado K12 -> No dispongo de esa información. Escríbenos o llámanos: +34 969 211 704 · info@po"
- ],
- "ok": false
+ "fail": [],
+ "ok": true
 }
