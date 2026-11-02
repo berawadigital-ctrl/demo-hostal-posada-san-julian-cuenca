@@ -1,0 +1,39 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.posadasanjulian.es/",
+ "read_at": "2026-11-02T11:04:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.posadasanjulian.es",
+   "sha256": "d4e78849a6c2842e20aa83f453a3499bc45461465934242e2cd7c90d18f129cd",
+   "chars": 2196
+  },
+  {
+   "url": "https://www.posadasanjulian.es/hostal---habitaciones",
+   "sha256": "4175c8d1e317cade4755292e2c0910fed18fecd74bbeb4abdf75854070cbe703",
+   "chars": 2060
+  },
+  {
+   "url": "https://www.posadasanjulian.es/lugaes-y-paginas-de-interes",
+   "sha256": "7ba1256a0477d837aea6f3b26af07efe798808f3dda29aadc38382091437c567",
+   "chars": 4954
+  },
+  {
+   "url": "https://www.posadasanjulian.es/nuestras-instalaciones",
+   "sha256": "613f745941b4091197368778e4896b00bc8628e8ee29acbd277297972bfedda7",
+   "chars": 2610
+  },
+  {
+   "url": "https://www.posadasanjulian.es/restaurante",
+   "sha256": "4c169bdf010cd023acb742998ad75589432e3d9ce92d2709ae05635a9ad31134",
+   "chars": 1922
+  }
+ ],
+ "other_pages_read": [
+  "https://www.posadasanjulian.es/aviso-legal",
+  "https://www.posadasanjulian.es/gracias",
+  "https://www.posadasanjulian.es/politica-de-cookies",
+  "https://www.posadasanjulian.es/politica-de-privacidad"
+ ]
+}
