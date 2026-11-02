@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hostal-posada-san-julian-cuenca",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-11-02T11:04:00+01:00",
+ "updated_at": "2026-11-02T11:20:00+01:00",
+ "business": {
+  "name": "Posada San Julián",
+  "legal_name": "Eva Álvarez Collado, NIF 04533839X (aviso legal de su web; autónoma)",
+  "registry_ids": [
+   "04533839X"
+  ],
+  "url": "https://www.posadasanjulian.es/",
+  "domain": "posadasanjulian.es",
+  "municipality": "Cuenca",
+  "province": "Cuenca",
+  "address": "Calle Torres, 1 · 16001 Cuenca",
+  "phones": [
+   "+34 969 211 704"
+  ],
+  "emails": [
+   "info@posadasanjulian.es"
+  ],
+  "sector": "hostal y restaurante familiar en el centro histórico de Cuenca"
+ },
+ "rating": {
+  "value": 4.2,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por tel, web)",
+  "url": "https://www.google.com/maps/search/Posada+San+Juli%C3%A1n+Cuenca?hl=es",
+  "date": "2026-10-30",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "mail",
+  "url": "mailto:info@posadasanjulian.es",
+  "note": "sin motor de reservas: su web solo da el teléfono 969 211 704 y el correo info@posadasanjulian.es («Haga su reserva en el teléfono»). Los botones Reservar de la demo abren un correo a info@posadasanjulian.es y el teléfono real va en tel: (mismo criterio que San Martín, Andrín y Hey)."
+ },
+ "audit_original": {
+  "url": "https://www.posadasanjulian.es/",
+  "date": "2026-11-02T11:04:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
